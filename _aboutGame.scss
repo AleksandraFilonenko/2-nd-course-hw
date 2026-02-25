@@ -1,0 +1,86 @@
+.body {
+    background-color: #202027;
+    padding-top: 94px;
+    padding-bottom: 96px;
+    position: relative;
+    z-index: 0;
+
+    &__title {
+        color: #fff;
+        font-size: 64px;
+        font-weight: 700;
+        margin-bottom: 24px;
+    }
+    &__title::after {
+        content: url(image/Starbig.svg);
+        position: absolute;
+        right: 0;
+        top: 120px;
+        z-index: -1;
+    }
+
+    &__text {
+        color: #fff;
+        font-size: 24px;
+        line-height: 32px;
+        margin-bottom: 72px;
+
+        &::after {
+            content: url(image/Star11.svg);
+            position: absolute;
+            left: 25px;
+            top: 770px;
+            z-index: -1;
+        }
+    }
+    &__about {
+        display: grid;
+        column-gap: 32px;
+        grid-template-columns: repeat(12, 1fr);
+        align-items: start;
+
+        &::after {
+            content: url(image/Star12.svg);
+            position: absolute;
+            left: 40px;
+            top: 822px;
+            z-index: -1;
+        }
+    }
+
+    &__cart {
+        display: block;
+        background-color: #fff;
+        border-radius: 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        padding-bottom: 36px;
+        grid-column: span 4;
+        text-decoration: none;
+        color: #202027;
+        
+        &_order {
+            align-self: flex-end;
+        }
+    }
+
+    &__number {
+        display: inline-block;
+        font-weight: 500;
+        margin-top: 16px;
+        margin-left: 32px;
+        width: 80px;
+        font-size: 16px;
+        padding: 9px 16px 9px 16px;
+        background-color: #f7f7f7;
+        border-radius: 52px;
+    }
+
+    &__name {
+        font-weight: 700;
+        font-size: 32px;
+        margin-left: 32px;
+        margin-right: 32px;
+    }
+}
