@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.center {
+    font-family: Montserrat;
+    
+        padding-left: calc(50% - 600px);
+        padding-right: calc(50% - 600px);
+    
+}
+
+.header {
+    background-color: #e1ff8f;
+    height: 800px;
+}/*# sourceMappingURL=style.css.map */
