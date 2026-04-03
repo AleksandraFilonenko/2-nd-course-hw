@@ -8,25 +8,7 @@ if (password == whatPassword) {
 }
 
 // Задание 2
-let c = 0;
-if (c > 0 && c < 10) {
-    console.log('Верно');
-} else {
-    console.log('Неверно');
-}
-c = 10;
-if (c > 0 && c < 10) {
-    console.log('Верно');
-} else {
-    console.log('Неверно');
-}
-c = -3;
-if (c > 0 && c < 10) {
-    console.log('Верно');
-} else {
-    console.log('Неверно');
-}
-c = 2;
+let c = 10;
 if (c > 0 && c < 10) {
     console.log('Верно');
 } else {
@@ -36,24 +18,24 @@ if (c > 0 && c < 10) {
 // Задание 3
 let d = 115;
 let e = 55;
-if (d || e > 100) {
+if (d > 100 || e > 100) {
     console.log('Верно');
 } else {
-     console.log('Неверно');
+    console.log('Неверно');
 }
 
 // Задание 4
 let a = '2';
 let b = '3';
 
-alert(Number(a + b));
+alert(Number(a) + Number(b));
 
 // Задание 5
 let monthNumber = 12;
 if (monthNumber > 13) {
     console.log("Программа не выполняется: номер месяца больше 13");
 } else {
-    switch (monthNumber){
+    switch (monthNumber) {
         case 12:
         case 1:
         case 2:
