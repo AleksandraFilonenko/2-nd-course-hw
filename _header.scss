@@ -64,4 +64,10 @@
             font-weight: 600;
         }
     }
+    &__btn--desktop {
+        display: inline-block;
+    }
+    &__btn--mobile {
+    display: none;
+}
 }

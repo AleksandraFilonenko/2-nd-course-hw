@@ -59,6 +59,12 @@
         grid-column: span 4;
         text-decoration: none;
         color: #202027;
+
+        &:hover {
+            transform: scale(1.12);
+            box-shadow: 0 16px 40px rgba(0,0,0,0.7);
+            z-index: 1;
+        }
         
         &_order {
             align-self: flex-end;
