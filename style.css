@@ -57,6 +57,11 @@
   text-decoration: none;
   color: #202027;
 }
+.body__cart:hover {
+  transform: scale(1.12);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.7);
+  z-index: 1;
+}
 .body__cart_order {
   align-self: flex-end;
 }
@@ -221,6 +226,12 @@
   color: #000000;
   font-weight: 600;
 }
+.header__btn--desktop {
+  display: inline-block;
+}
+.header__btn--mobile {
+  display: none;
+}
 
 @media (max-width: 767px) {
   .center {
@@ -281,6 +292,12 @@
     font-size: 16px;
     align-items: center;
     padding: 16px 102px;
+  }
+  .header__btn--desktop {
+    display: none;
+  }
+  .header__btn--mobile {
+    display: inline-block;
   }
   .body {
     display: none;
